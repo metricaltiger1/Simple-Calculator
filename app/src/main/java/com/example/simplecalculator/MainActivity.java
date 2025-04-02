@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void tangentBTN(View view) {
         String inputText = display.getText().toString();
-        String newExpression = String.format("tan(", inputText);
+        String newExpression = String.format("taan(", inputText);
         updateText(newExpression);
     }
 
